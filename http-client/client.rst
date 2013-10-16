@@ -449,7 +449,7 @@ Here's an example of sending three requests in parallel using a client object:
 
 .. code-block:: php
 
-    use Guzzle\Common\Exception\MultiTransferException;
+    use Guzzle\Http\Exception\MultiTransferException;
 
     try {
         $responses = $client->send(array(
